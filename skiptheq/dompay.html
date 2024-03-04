@@ -1,0 +1,43 @@
+<!-- payment.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="pstylesheet" href="pstylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Include Razorpay script -->
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</head>
+<body>
+    <h1>Payment Page</h1>
+    <button id="payButton">Pay Now</button>
+
+    <script>
+        // Include your Razorpay API key here
+        const razorpayKey = 'rzp_test_muM4XagPTCA9UV';
+
+        document.getElementById('payButton').addEventListener('click', () => {
+            const options = {
+                key: razorpayKey,
+                amount: 1000, // Example amount in paise (1 INR)
+                currency: 'INR',
+                name: 'Food on Table',
+                description: 'Product Purchase',
+                handler: function (response) {
+                    alert('Payment successful: ' + response.razorpay_payment_id);
+                    // Redirect or perform additional actions after successful payment
+                },
+                prefill: {
+                    name: 'Aashutosh Gupta',
+                    email: 'john.doe@example.com',
+                    contact: '1234567890',
+                },
+            };
+            const rzp = new Razorpay(options);
+            rzp.open();
+        });
+    </script>
+</body>
+</html>

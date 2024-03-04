@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Farmhouse",
+        "price": 459,
+        "image":"https://images.dominos.co.in/nextgen-catalog/media/prod/Dominos/menu/1b892978-f689-4199-90d2-47df4e261235_farmhouse.png"
+    },
+    {
+        "id": 2,
+        "name": "Peppy Paneer",
+        "price": 479,
+        "image": "https://images.dominos.co.in/nextgen-catalog/media/prod/Dominos/menu/f65964c6-de96-475d-a5a9-3f3698d66ee7_new_peppy_paneer.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Veg Extravaganza",
+        "price": 300,
+        "image": "https://images.dominos.co.in/nextgen-catalog/media/prod/Dominos/menu/5f8ad75f-22d0-4dfb-80e1-852fe2f1caf9_new_veg_extravaganza.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Veggie Paradise",
+        "price": 459,
+        "image": "https://images.dominos.co.in/nextgen-catalog/media/prod/Dominos/menu/8a9f4cab-4f46-4b71-8e9b-55bba0b96366_new_veggie_paradise.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Fresh veggie",
+        "price": 379,
+        "image": "https://images.dominos.co.in/nextgen-catalog/media/prod/Dominos/menu/d9d123bc-2284-4e1c-b908-cca62ec5b2b8_new_fresh_veggie.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Lunch Combo @149",
+        "price": 100,
+        "image": "https://images.dominos.co.in/nextgen-catalog/media/prod/Dominos/menu/1086bb3a-6a7f-4041-b2c7-00242473dc4b_ValueCombo149Menu.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Meal for 4: Veg Loaded Pizza",
+        "price": 949,
+        "image": "https://images.dominos.co.in/nextgen-catalog/media/prod/Dominos/menu/12e68204-001b-4830-a6c3-6b0a829a783f_CMB1398.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Meal for 4: Veg Extravaganza & Indi Tandoori Paneer ",
+        "price": 1199,
+        "image": "https://images.dominos.co.in/nextgen-catalog/media/prod/Dominos/menu/8697c6d1-66c9-428f-80d8-26bcc3a891fc_MealinditandooripaneerMenu.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Pepsi 475ml",
+        "price": 60,
+        "image": "https://images.dominos.co.in/nextgen-catalog/media/prod/Dominos/menu/0e3c85ca-0b64-4c5a-affa-da98b34373e0_PepsiSearch.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Chicken Pepperoni Stuffed Garlic Bread",
+        "price": 169,
+        "image": "https://images.dominos.co.in/nextgen-catalog/media/prod/Dominos/menu/bd4a29c0-c5e4-41da-8462-e0066a205dcb_BRD0031.png"
+    }
+]

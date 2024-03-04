@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="./biglogo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Treat</title>
+    <link rel="stylesheet" href="bk.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="burgerking_logo">
+            <img src="https://assets-global.website-files.com/631b4b4e277091ef01450237/637b985f604b430224260062_BK_LOGO_WORDMARK_BRGRKNG_NO%E2%94%AC%C2%AB_ST_FIREY_RED_RGB.png">
+        </div>
+    </nav>
+    
+
+<div class="container">
+    <header>
+        <div class="title">PRODUCT LIST</div>
+        <div class="icon-cart">
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.3L19 7H7.3"/>
+            </svg>
+            <span id="cartItemCount">0</span>
+        </div>
+    </header>
+
+    <div class="listProduct" id="productList">
+        <!-- Product items will be dynamically added here -->
+    </div>
+</div>
+
+<div class="cartTab" id="cartTab">
+    <h1>Shopping Cart</h1>
+    <div class="listCart" id="cartList">
+        <!-- Cart items will be dynamically added here -->
+    </div>
+    <div class="totalAmount" id="totalAmount">Total: $0</div>
+    <div class="btn">
+        <button class="close" id="closeCart" type="button">CLOSE</button>
+        <a href="bkpay.html">
+        <button class="checkOut" id="goToCart" type="button">CHECK OUT</button>
+        </a>
+    </div>
+    
+</div>
+
+<script src="bk.js" defer></script>
+</body>
+</html>

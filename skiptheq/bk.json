@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Crispy Veg Burger",
+        "price": 70,
+        "image":"https://d1rgpf387mknul.cloudfront.net/products/PLP/web/2x_web_20240304073123925280_482x264jpg"
+    },
+    {
+        "id": 2,
+        "name": "Paneer Royale Wrap",
+        "price": 209,
+        "image": "https://d1rgpf387mknul.cloudfront.net/products/PLP/web/2x_web_20231127062122551174_482x264jpg"
+    },
+    {
+        "id": 3,
+        "name": "Whopper Jr Veg",
+        "price": 149,
+        "image": "https://d1rgpf387mknul.cloudfront.net/products/PLP/web/2x_web_20240304080345736381_482x264jpg"
+    },
+    {
+        "id": 2,
+        "name": "Just Friends Combo",
+        "price": 636,
+        "image": "https://d1rgpf387mknul.cloudfront.net/products/PLP/ml/2x_ml_20231129101909385046_426x234jpg"
+    },
+    {
+        "id": 3,
+        "name": "Tum Hi Ho Combo - Chicken",
+        "price": 300,
+        "image": "https://d1rgpf387mknul.cloudfront.net/products/PLP/ml/2x_ml_20240202044649946443_426x234jpg"
+    },
+    {
+        "id": 2,
+        "name": "Fries(King)",
+        "price": 69,
+        "image": "https://d1rgpf387mknul.cloudfront.net/products/PLP/ml/2x_ml_20230314074254711587_426x234jpg"
+    },
+    {
+        "id": 3,
+        "name": "Combo Deal",
+        "price": 785,
+        "image": "https://d1rgpf387mknul.cloudfront.net/products/PLP/ml/2x_ml_20211121051006545237_426x234jpg"
+    },
+    {
+        "id": 2,
+        "name": "Chocolate Mousse Cup",
+        "price": 109,
+        "image": "https://d1rgpf387mknul.cloudfront.net/products/PLP/ml/2x_ml_20211121051006545237_426x234jpg"
+    },
+    {
+        "id": 3,
+        "name": "Choco Lava Cup",
+        "price": 129,
+        "image": "https://d1rgpf387mknul.cloudfront.net/products/PLP/ml/2x_ml_20220330140831018690_426x234jpg"
+    },
+    {
+        "id": 3,
+        "name": "Medium Soft Drink (Cola)",
+        "price": 95,
+        "image": "https://d1rgpf387mknul.cloudfront.net/products/PLP/ml/2x_ml_20240102093715855477_426x234jpg"
+    }
+]
