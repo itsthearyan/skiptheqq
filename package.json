@@ -1,5 +1,5 @@
 {
-  "name": "starter-express-api",
+  "start": "node index.html",
   "version": "1.0.0",
   "lockfileVersion": 2,
   "requires": true,
